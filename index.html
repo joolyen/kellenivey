@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Kellen's Page</title>
+	<link rel="icon" href="http://kellenivey.com/favicon.png">
     <link rel="canonical" href="./regular-html-version.html">
 	<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Sarala" rel="stylesheet">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -12,7 +13,9 @@
 	  h1 {color:#555;padding:.5em;margin:0;font-family: 'Sarala', sans-serif;font-size:2em;text-align:center;}
 	  .wrapper {width:100%;}
 	  .content {width:100%;}
-	  .content p {font-family: 'Bubblegum Sans', cursive;color:#e3e3e3;font-size:1.5em;}
+	  .content {font-family: 'Bubblegum Sans', cursive;color:#e3e3e3;font-size:1.5em;}
+	  .content .footer {font-size:.75em;text-align:center;}
+	  .content .footer a {color:#fff;text-decoration:none;}
 	  .container{max-width:832px;margin:0 auto;padding:1em;}
     </style>
     <script type="application/ld+json">
@@ -26,6 +29,7 @@
       "datePublished": "2017-02-11T08:00:00+08:00"
     }
     </script>
+	<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
   </head>
@@ -37,10 +41,15 @@
 	</div>
     <div class="content">
 		<div class="container">
-			<p>A man amongst boys. Kellen feels the fur of this tamed wild beast who is now in a better place.</p>
-			<amp-img src=img/fur.jpg width=832 height=900 layout="responsive" alt="kid's feeling animal fur"></amp-img>
-			</p>
+			<p>A man amongst boys. Kellen embarks on many adventures that the common child would not, and could not. Bear witness to the testimony of this dude via pictures.</p>
+			<amp-carousel width=832 height=900 layout="responsive" type="slides" autoplay delay="4000">
+				<amp-img src=img/fur.jpg width=832 height=900 layout="responsive" alt="kid's feeling animal fur"></amp-img>
+				<amp-img src=img/painting.jpg width=832 height=900 layout="responsive" alt="home depot project"></amp-img>
+				<amp-img src=img/cowboy.jpg width=832 height=900 layout="responsive" alt="halloween parade"></amp-img>
+				<amp-img src=img/basketball.jpg width=832 height=900 layout="responsive" alt="basketball tipoff"></amp-img>
+			</amp-carousel>
 		</div>
+		<div class="footer"><a href="http://boyga.com/">Boyga</a> | 2017 &copy;</div>
 	</div>
   </body>
 </html>
