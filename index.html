@@ -2,31 +2,57 @@
 <html amp lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Kellen's Page</title>
+    <title>Kellen's Adventures</title>
 	<link rel="icon" href="http://kellenivey.com/favicon.png">
-    <link rel="canonical" href="./regular-html-version.html">
-	<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Sarala" rel="stylesheet">
+    <link rel="canonical" href="http://kellenivey.com/index.html">
+	<link href="https://fonts.googleapis.com/css?family=Kreon|Permanent+Marker" rel="stylesheet">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<meta name="description" content="Kellen's Adventures. A simple, sample, one-page amp website to play with amp and structured data. Created by Boyga.">
     <style amp-custom>
-      body{background-color:#3f51b5;min-width:100%;margin:0 auto;}
+      body{background-color:#3e4240;min-width:100%;margin:0 auto;}
 	  header {background-color:#fff;width:100%;margin:0;}
-	  h1 {color:#555;padding:.5em;margin:0;font-family: 'Sarala', sans-serif;font-size:2em;text-align:center;}
+	  h1 {color:#555;padding:.5em;margin:0;font-family: 'Permanent Marker', cursive;font-size:2em;text-align:center;}
 	  .wrapper {width:100%;}
 	  .content {width:100%;}
-	  .content {font-family: 'Bubblegum Sans', cursive;color:#e3e3e3;font-size:1.5em;}
-	  .content .footer {font-size:.75em;text-align:center;}
+	  .content {font-family: 'Kreon', serif;color:#e3e3e3;font-size:1.5em;}
+	  .content .footer {font-size:.75em;text-align:center;line-height:2em;margin:2em auto 1em;}
 	  .content .footer a {color:#fff;text-decoration:none;}
 	  .container{max-width:832px;margin:0 auto;padding:1em;}
     </style>
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
-      "@type": "NewsArticle",
-      "headline": "Kellen's Adventures",
-      "image": [
-        "img/fur-thumbnail.jpg"
-      ],
-      "datePublished": "2017-02-11T08:00:00+08:00"
+      "@type": "Article",
+	  "mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "http://kellenivey.com/index.html"
+	  },
+	  "author" : {
+		"@type" : "Person",
+		"name" : "Kellen Ivey"
+	  },
+      "headline": "Kellen's Adventures in The Form of Pictures.",
+	  "url" : "http://kellenivey.com/",
+	  "image": {
+		"@type": "ImageObject",
+		"url": "http://kellenivey.com/img/cowboy.jpg",
+		"height": 900,
+		"width": 832
+	  },
+	  "publisher" : {
+		"@type" : "Organization",
+		"name" : "Kellen's Adventures",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "http://kellenivey.com/publisher-logo.png",
+			"width": 600,
+			"height": 60
+		}
+	  },
+      "datePublished": "2017-02-11T08:00:00+08:00",
+	  "dateModified": "2017-02-12T08:00:00+08:00",
+	  "articleSection" : "A man amongst boys. Kellen embarks on many adventures that the common child would not, and could not.",
+	  "articleBody" : "Bear witness to the testimony of this dude via pictures."
     }
     </script>
 	<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
